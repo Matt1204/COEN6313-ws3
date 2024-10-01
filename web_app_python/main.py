@@ -13,7 +13,7 @@ def hello_world():
     return f"Hello World!!!!!!"
 
 @app.route("/new-route", methods=['GET'])
-def hello_world():
+def new_route_func():
     """Example Hello World route."""
 
     return f"Hello New Route!!!"
